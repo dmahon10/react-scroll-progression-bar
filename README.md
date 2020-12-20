@@ -1,9 +1,9 @@
 # Scroll Progress Bar React Component
 
 ## The idea behind the example
-Based off of: 
+Based off of:
+
 https://github.com/thisisadityarao/react-scroll-progress-bar
-https://www.npmjs.com/package/react-scroll-progress-bar
 
 I used the above class based component as a basis for this functional component.
 In addition to making it a functional component for the sake of modernity, instead of
