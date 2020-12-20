@@ -29,7 +29,7 @@ npm run dev
 
 or:
 
-See [demo on Repl.it](https://repl.it/@mahon/react-scroll-progression-bar#pages/index.js)
+See [demo on Repl.it](https://repl.it/@mahon/react-scroll-progression-bar#README.md)
 
 
 
