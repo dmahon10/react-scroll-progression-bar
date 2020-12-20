@@ -19,9 +19,9 @@ The component is wrapped in a Next.js app for demonstration purposes.
 ## How to use
 
 For the full example:
-
 1. Clone the repo
-2. Run:
+1. Install Node and NPM
+1. Run:
 ```sh
 npm install
 npm run dev
@@ -30,6 +30,12 @@ npm run dev
 or:
 
 See [demo on Repl.it](https://repl.it/@mahon/react-scroll-progression-bar#README.md)
+
+```js
+import ScrollProgressBar from '../components/ScrollProgressBar';
+
+<ScrollProgressBar height={"5px"} color={"#FF5E3C"} delay={"0s"}/>
+```
 
 
 
