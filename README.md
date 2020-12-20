@@ -5,7 +5,7 @@ Based off of:
 
 https://github.com/thisisadityarao/react-scroll-progress-bar
 
-I used the above class based component as a basis for this functional component.
+I used the above class based component as a starting point for this functional component.
 In addition to making it a functional component for the sake of modernity, instead of
 using `fixed` positioning, mine is `static`. I believe this makes it useful in a wider
 variety of contexts, particularly in the common under nav-bar style as shown in the
