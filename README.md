@@ -29,7 +29,7 @@ npm run dev
 
 or:
 
-![Edit on Repl](https://codesandbox.io/s/github/mui-org/material-ui/tree/master/examples/nextjs)
+See [demo on Repl.it](https://repl.it/@mahon/react-scroll-progression-bar#pages/index.js)
 
 
 
