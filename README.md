@@ -29,7 +29,13 @@ npm run dev
 
 or:
 
-See [demo on Repl.it](https://repl.it/@mahon/react-scroll-progression-bar#README.md)
+See [demo on Repl.it](https://repl.it/@mahon/react-scroll-progression-bar#README.md) (hit run and wait a couple minutes for Next.js dependencies to load)
+
+
+
+To just use the component, add the `ScrollProgressBar.js` file into your `components` directory and import anywhere in your project.
+
+Usage as follows:
 
 ```js
 import ScrollProgressBar from '../components/ScrollProgressBar';
