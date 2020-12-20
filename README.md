@@ -1,16 +1,27 @@
-# Next.js example
+# Scroll Progress Bar React Component
+
+## The idea behind the example
+Based off of: 
+https://github.com/thisisadityarao/react-scroll-progress-bar
+https://www.npmjs.com/package/react-scroll-progress-bar
+
+I used the above class based component as a basis for this functional component.
+In addition to making it a functional component for the sake of modernity, instead of
+using `fixed` positioning, mine is `static`. I believe this makes it useful in a wider
+variety of contexts, particularly in the common under nav-bar style as shown in the
+demo. 
+
+I have also required that color, height and delay props include units (px, s, etc.), again
+to allow for maximum customizability. 
+
+The component is wrapped in a Next.js app for demonstration purposes.
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+For the full example:
 
-```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/next | tar -xz --strip=2  material-ui-next/examples/nextjs
-cd nextjs
-```
-
-Install it and run:
-
+1. Clone the repo
+2. Run:
 ```sh
 npm install
 npm run dev
@@ -18,8 +29,11 @@ npm run dev
 
 or:
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui-org/material-ui/tree/master/examples/nextjs)
+[![Edit on Repl](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui-org/material-ui/tree/master/examples/nextjs)
 
-## The idea behind the example
+<!-- To just install the component:
+```sh
+npm install scroll-progress-bar
+``` -->
 
-The project uses [Next.js](https://github.com/zeit/next.js), which is a framework for server-rendered React apps. It includes `@material-ui/core` and its peer dependencies, including `emotion`, the default style engine in Material-UI v5. If you prefer, you can [use styled-components instead](https://next.material-ui.com/guides/interoperability/#styled-components).
+

@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Head from 'next/head';
-import { ThemeProvider } from '@material-ui/core/styles';
+import createCache from '@emotion/cache';
 import { CacheProvider } from '@emotion/react';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import createCache from '@emotion/cache';
+import { ThemeProvider } from '@material-ui/core/styles';
+import Head from 'next/head';
+import PropTypes from 'prop-types';
+import React from 'react';
 import theme from '../src/theme';
 
 export const cache = createCache({ key: 'css', prepend: true });
@@ -23,7 +23,7 @@ export default function MyApp(props) {
   return (
     <CacheProvider value={cache}>
       <Head>
-        <title>My page</title>
+        <title>Scroll Progress Bar</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <ThemeProvider theme={theme}>

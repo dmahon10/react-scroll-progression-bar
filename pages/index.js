@@ -1,24 +1,27 @@
-import React from 'react';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import ProTip from '../src/ProTip';
-import Link from '../src/Link';
-import Copyright from '../src/Copyright';
+import Container from '@material-ui/core/Container';
+import React from 'react';
+import AppBar from '../components/AppBar';
 
 export default function Index() {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Next.js v5-alpha example
-        </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
-        <Copyright />
-      </Box>
-    </Container>
+    <React.Fragment>
+      <AppBar/>
+      <Container maxWidth={"md"} style={{marginTop: "120px", textAlign: 'center'}}>
+        <h1>Scroll Me</h1>
+      </Container>
+      <Container maxWidth={"md"} style={{marginTop: "100px"}}>
+        <Box my={2}>
+          {[...new Array(70)]
+            .map(
+              () => `Cras mattis consectetur purus sit amet fermentum.
+              Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
+            )
+            .join('\n')}
+        </Box>
+      </Container>
+    </React.Fragment>
   );
 }
