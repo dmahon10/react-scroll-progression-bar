@@ -10,7 +10,8 @@
     "@material-ui/core": "next",
     "clsx": "latest",
     "next": "latest",
-    "react": "latest"
+    "react": "latest",
+    "react-dom": "^17.0.1"
   },
   "scripts": {
     "dev": "next",
